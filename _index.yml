@@ -1,5 +1,13 @@
 ---
 indexpage:
+  title: Documentación de Astra Trident 23,10
+  summary: Astra Trident es un aprovisionador y orquestador de almacenamiento de código
+    abierto mantenido por NetApp. Te permite crear volúmenes de almacenamiento para
+    aplicaciones en contenedores gestionadas por Docker y Kubernetes. **Lee las notas
+    de la versión para información crítica sobre la actualización a Astra Trident
+    23.10.**
+  keywords: astra trident, 2310, documentation, release notes, get started, deploy,
+    upgrade, use, data management, demos, tutorials, blogs, community
   lead: Astra Trident es un orquestador y gestor de aprovisionamiento de código abierto
     que mantiene NetApp. Le permite crear volúmenes de almacenamiento para aplicaciones
     en contenedores gestionadas por Docker y Kubernetes.
@@ -8,8 +16,6 @@ indexpage:
     links:
     - title: Lo nuevo
       url: trident-rn.html
-    - title: Versiones anteriores
-      url: "/earlier-versions.html"
   - title: Manos a la obra
     links:
     - title: Obtenga más información sobre Astra Trident
