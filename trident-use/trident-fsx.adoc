@@ -16,6 +16,7 @@ https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["Amazon
 
 
 
+[[overview]]
 == Descripción general
 
 Un sistema de archivos es el recurso principal de Amazon FSX, similar a un clúster de ONTAP en las instalaciones. En cada SVM, se pueden crear uno o varios volúmenes, que son contenedores de datos que almacenan los archivos y las carpetas en el sistema de archivos. Con Amazon FSX para ONTAP de NetApp, Data ONTAP se proporcionará como un sistema de archivos gestionado en el cloud. El nuevo tipo de sistema de archivos se llama *ONTAP* de NetApp.
@@ -26,6 +27,7 @@ Usos de Amazon FSX para ONTAP de NetApp https://docs.netapp.com/ontap-9/topic/co
 
 
 
+[[considerations]]
 == Consideraciones
 
 * Volúmenes SMB:
@@ -47,6 +49,7 @@ image:screenshot-fsx-backup-disable.png["Captura de pantalla de la consola de AW
 
 
 
+[[fsx-for-ontap-driver-details]]
 == FSX para ONTAP detalles del controlador
 
 Puede integrar Astra Trident con Amazon FSX para ONTAP de NetApp mediante los siguientes controladores:
@@ -62,6 +65,7 @@ Para obtener más información sobre el controlador, consulte link:../trident-us
 
 
 
+[[authentication]]
 == Autenticación
 
 Astra Trident ofrece dos modos de autenticación.
@@ -84,6 +88,7 @@ Para obtener más información sobre cómo habilitar la autenticación, consulte
 
 
 
+[[find-more-information]]
 == Obtenga más información
 
 * https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["Documentación de Amazon FSX para ONTAP de NetApp"^]
